@@ -49,9 +49,21 @@ python main.py
 ![Capital](capital.png)
 
 
+### Transactions
+
+- 85% of success in transactions
+
+![Transactions](transactions.png)
+
+
+- The avarage transaction price increases over time
+
+![Average price](avg_transanction.png)
+
 ## Findings
 
-As the simulation data is stored in a folder, several data analysis could be done based on them, like personality that trades most, items most negotiated, how each personality interact with other based on memory, etc.
+As the simulation data is stored in csvs in a simulation_data folder, several data analysis could be done based on them, like which personality that trades most, items most negotiated, how each personality interact with other based on memory, etc.
 
-Other implementation could be done like have a persistence memory, so every time a simulation is ran the agents could recover memory about each other to have a potencial leverage in negotiation.
+Other implementation could be done in order to have most realistic simulation like persistence memory. 
+This would allow the agents to recover memory about each other and have a potencial leverage in negotiation.
 

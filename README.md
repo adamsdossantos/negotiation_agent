@@ -29,8 +29,29 @@ python main.py
 
 ## Results
 
+### Profitability
+- Chaotic personality is the most profitable.
+- Data Driven personality didn't do any negotiation
+- Risky Taker is the second most profitable.
+
+![Profitability](profitability.png)
+
+### Assets
+- Risk Taker and Emotional have more assets (capital + items)
+- Conservative has less assets
+
+![Assets](assets.png)
+
+### Capital
+
+- Risk Taker and Emotional have more capital
+
+![Capital](capital.png)
 
 
+## Findings
 
-## Key Findings
+As the simulation data is stored in a folder, several data analysis could be done based on them, like personality that trades most, items most negotiated, how each personality interact with other based on memory, etc.
+
+Other implementation could be done like have a persistence memory, so every time a simulation is ran the agents could recover memory about each other to have a potencial leverage in negotiation.
 

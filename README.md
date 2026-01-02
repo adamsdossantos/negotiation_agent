@@ -10,16 +10,12 @@ Autonomous AI agents that simulate a functioning marketplace with emergent econo
 - Complete transaction ledger
 - Comprehensive analytics
 
-## Requirements Met
-- 10 agents with distinct personalities
-- Agent memory system
-- Complete transaction ledger
-- Measurable outcom
 
 ## Quick Start
 ```bash
-pip install -r requirements.txt
-python test_complete_simulation.py
+pip install uv
+uv sync
+python main.py
 ```
 
 ## Architecture
@@ -29,11 +25,11 @@ python test_complete_simulation.py
 
 ## LangGraph Workflow
 
-![Workflow]("langgraph_workflow.png")
+![Workflow](langgraph_workflow.png)
 
 ## Results
 
-placeholder
+
 
 
 ## Key Findings

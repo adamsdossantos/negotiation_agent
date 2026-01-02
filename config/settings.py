@@ -13,7 +13,7 @@ load_dotenv()
 class Settings(BaseSettings):
 
     # initialize Gemini
-    PROJECT_ID: str = os.getenv("GCLOUD_PROJECT_ID_VM", "cvm-deploy-vm")
+    PROJECT_ID = os.getenv("GCLOUD_PROJECT_ID_VM")
     LOCATION:str = "us-central1"
     GEMINI_MODEL:str = "gemini-2.5-flash"
     TEMPERATURE: float = float(os.getenv("TEMPERATURE", "0.7"))
